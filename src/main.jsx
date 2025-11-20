@@ -9,6 +9,8 @@ import { router } from './router/routes.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+      <div className='font-Titillium '>
+         <RouterProvider router={router} />
+      </div>
   </StrictMode>,
 )

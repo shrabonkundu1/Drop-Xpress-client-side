@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-
+import logo from "../../assets/logo.png"
 const Navbar = () => {
   const navItems = (
     <>
@@ -41,7 +41,7 @@ const Navbar = () => {
            {navItems}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <NavLink to={"/"}><img className="w-53" src={logo} alt="" /></NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
